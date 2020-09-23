@@ -1,8 +1,8 @@
 ## 欢迎来到齐凡的主页
 
-You can use the [editor on GitHub](https://github.com/qifan-cool/qifan-cool.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+这是我第一个主页！
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+我将会在这里记录我学习的所思所得！
 
 ### Markdown
 
