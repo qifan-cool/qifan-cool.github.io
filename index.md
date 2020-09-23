@@ -6,7 +6,7 @@
 
 ### 自我介绍
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+野生纯靓仔一枚！
 
 ```markdown
 Syntax highlighted code block
