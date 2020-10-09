@@ -18,6 +18,9 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 
+<link rel=stylesheet href="css/common.css">
+<link rel=stylesheet href="css/jdc-side-panel.css">
+
 <!--fonts google-->
 <!--<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>-->
@@ -27,6 +30,64 @@
 <![endif]-->
 </head>
 <body>
+
+<!--右下角客服咨询-->
+<div class="jdc-side" style="display: block;">
+	<div class="mod_hang_qrcode jdc_feedback_qrcode">
+	  <div class="mod_hang_qrcode_btn"><i class="jdcfont"></i><span>扫码反馈</span></div>
+	  <div class="mod_hang_qrcode_show">
+		<div class="mod-qr-tips"></div>
+		<div class="mod_hang_qrcode_show_bg">
+		  <div id="canvas" style="height: 123px; width: 123px;"><img src="images/qr_img.jpg"></div>
+		</div>
+		<p>扫一扫，反馈当前页面</p>
+	  </div>
+	</div>
+	<div class="mod_hang_appeal">
+	  <div class="mod_hang_appeal_btn"><i class="jdcfont"></i> <span>咨询反馈</span></div>
+	  <div class="mod_hang_appeal_show">
+		<ul>
+		  <li><a href="#" target="_blank">
+			<div class="icon_box"><i class="jdcfont"></i></div>
+			<div class="text_box">
+			  <h5>人工客服</h5>
+			  <p>7*12 专业客服，服务咨询（暂无）</p>
+			</div>
+			</a></li>
+		  <li id="entry"><a href="#" target="_blank" class="f-cb">
+			<div class="icon_box"><i class="jdcfont"></i></div>
+			<div class="text_box">
+			  <h5>工单服务</h5>
+			  <p>7*24全时处理，技术支持（暂无）</p>
+			</div>
+			</a></li>
+		  <li><a href="#" target="_blank" class="f-cb">
+			<div class="icon_box"><i class="jdcfont"></i></div>
+			<div class="text_box">
+			  <h5>投诉建议</h5>
+			  <p>倾耳聆听，一天内及时处理（暂无）</p>
+			</div>
+			</a></li>
+		</ul>
+	  </div>
+	  </div>
+	<div class="mod_hang_qrcode jdc_hang_qrcode"><a class="mod_hang_qrcode_btn"><i class="jdcfont"></i><span>扫码关注</span></a>
+	  <div class="mod_hang_qrcode_show">
+		<div class="mod_hang_qrcode_show_bg"></div>
+		<p>站长云微信公众号</p>
+	  </div>
+	</div>
+	<div class="mod_hang_qrcode mod_hang_top"><a href="http://qifan-cool.github.io" class="mod_hang_qrcode_btn"><i class="jdcfont"></i><span>返回顶部</span></a></div>
+	<div class="el-dialog__wrapper" style="display: none;">
+	  <div class="el-dialog el-dialog--small" style="top: 15%;">
+		<div class="el-dialog__header"><span class="el-dialog__title"></span>
+		  <div type="button" class="el-dialog__headerbtn"><i class="el-dialog__close el-icon el-icon-close"></i></div>
+		</div>
+		</div>
+	</div>
+  </div>
+  
+
 <!--PRELOADER-->
 <div id="preloader">
   <div id="status">
@@ -1011,7 +1072,7 @@
 						  c
 						</h3>
 						<p class="head-sm">
-						  <a href="qifan-game1">魔方</a>
+						  <a href="qifan-game7">魔方</a>
 						</p>
 						<p class="text-grey">
 						</p>
@@ -1024,7 +1085,7 @@
 						  b
 						</h3>
 						<p class="head-sm">
-							<a href="qifan-game2">计算器</a>
+							<a href="qifan-game8">计算器</a>
 						</p>
 						<p class="text-grey">
 						</p>
@@ -1037,7 +1098,7 @@
 						  d
 						</h3>
 						<p class="head-sm">
-						  <a href="qifan-game3">倒计时</a>
+						  <a href="qifan-game9">倒计时</a>
 						</p>
 						<p class="text-grey">
 						</p>
